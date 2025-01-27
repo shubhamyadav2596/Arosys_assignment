@@ -691,6 +691,12 @@ div.extra-feature a.active {
   height: 20px;
   width: 30px;
 }
+.owl-item .card-img {
+  height: 100% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* responsive navbar  */
 
