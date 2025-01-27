@@ -698,6 +698,7 @@ div.extra-feature a.active {
   align-items: center;
 }
 
+
 /* responsive navbar  */
 
 .responsive-nav {
@@ -861,6 +862,11 @@ div.extra-feature a.active {
   }
   .tabs .top-products .tab-content .card .card-body {
     height: 160px
+  }
+}
+@media screen and (min-width: 991px) {
+  .side-card-height {
+    height: 500px;
   }
 }
 @media screen and (max-width: 767px) {
