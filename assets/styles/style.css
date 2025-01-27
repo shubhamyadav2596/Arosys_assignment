@@ -864,7 +864,7 @@ div.extra-feature a.active {
     height: 160px
   }
 }
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 992px) {
   .side-card-height {
     height: 500px;
   }
@@ -908,7 +908,7 @@ div.extra-feature a.active {
     height: 200px
  }
 }
-@media screen and (max-width: 1200px) and (min-width:991px) {
+@media screen and (max-width: 1200px) and (min-width:992px) {
   .tabs .tab-content .card .card-body {
      height: 200px
   }
@@ -918,7 +918,7 @@ div.extra-feature a.active {
 
 
 
-@media screen and (max-width: 900px) and (min-width:767px) {
+@media screen and (max-width: 900px) and (min-width:768px) {
   .contact .content h6, .shipping .content h6 {
       font-size: 10px;
   }
