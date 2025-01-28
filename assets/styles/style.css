@@ -57,6 +57,12 @@ div.prdct-price {
   font-size: 20px;
   color: #666;
 }
+img.img-fluid {
+    height: 100%;
+    width: 100% !important;
+    object-fit: contain;
+    ;
+}
 
 .offer-highligher {
   background-color: var(--primary-color);
@@ -860,13 +866,16 @@ div.extra-feature a.active {
   .tabs .tab-content .card .card-body {
     height: 200px;
   }
-  .tabs .top-products .tab-content .card .card-body {
+  /* .tabs .top-products .tab-content .card .card-body {
     height: 160px
-  }
+  } */
 }
 @media screen and (min-width: 992px) {
   .side-card-height {
-    height: 500px;
+    height: 400px;
+  }
+  .tab-section .top-products .tabs .tab-content .card .card-body {
+    height: 100px !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -902,19 +911,26 @@ div.extra-feature a.active {
   .tabs .tab-content .card .card-body {
     height: auto;
   }
+  .tab-section .top-products .tabs .tab-content .card .card-body {
+    height: 300px !important;
+  }
 }
 @media screen and (min-width: 1200px) {
   .tabs .tab-content .card .card-body {
     height: 200px
  }
+ .tab-section .top-products .tabs .tab-content .card .card-body {
+  height: 130px !important;
+}
 }
 @media screen and (max-width: 1200px) and (min-width:992px) {
   .tabs .tab-content .card .card-body {
      height: 200px;
   }
   .tab-section .top-products .tabs .tab-content .card .card-body {
-    height: 200px !important;
+    height: 120px !important;
   }
+ 
 }
 
 @media screen and (max-width: 900px) and (min-width:768px) {
