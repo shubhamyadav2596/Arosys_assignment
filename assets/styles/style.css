@@ -606,14 +606,14 @@ div.extra-feature a.active {
     url("../img/top-prod-bg/images1.jpg") no-repeat center center;
   background-size: cover;
 }
-.top-products .relative {
+.top-products  .shadow .relative {
   display: flex;
   flex-direction: column;
   padding-inline: 1.5rem;
   height: 60%;
   justify-content: space-between;
 }
-.top-products .relative .proceed-btn button {
+.top-products .shadow .relative .proceed-btn button {
   border: none;
   outline: none;
   background: var(--primary-color);
@@ -910,13 +910,12 @@ div.extra-feature a.active {
 }
 @media screen and (max-width: 1200px) and (min-width:992px) {
   .tabs .tab-content .card .card-body {
-     height: 200px
+     height: 200px;
   }
- .tab-section .top-products .tabs .tab-content .card .card-body {
-    height: 150px !important;
- }
-
-
+  .tab-section .top-products .tabs .tab-content .card .card-body {
+    height: 200px !important;
+  }
+}
 
 @media screen and (max-width: 900px) and (min-width:768px) {
   .contact .content h6, .shipping .content h6 {
